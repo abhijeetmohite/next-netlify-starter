@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+        <meta name="google-site-verification" content="uqIgiwHvtkvyxBjIumRTPD7JLOV8D3-0xT7gOEZ2EO8" />
         <title>Next.js Abhijeet Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
