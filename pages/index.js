@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Navigation from '@components/naviagtion'
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
         <title>Next.js Abhijeet Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Navigation />
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
