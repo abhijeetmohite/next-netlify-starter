@@ -1,4 +1,5 @@
 import Navigation from '../components/naviagtion'
+import Head from 'next/head'
 
 const About = () => (
   <>
