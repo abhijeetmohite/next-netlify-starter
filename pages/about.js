@@ -3,6 +3,26 @@ import Navigation from '../components/naviagtion'
 const About = () => (
   <>
   <div className="container">
+  <Head>
+        <meta name="google-site-verification" content="uqIgiwHvtkvyxBjIumRTPD7JLOV8D3-0xT7gOEZ2EO8" />
+<script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-C32TYHJCLL"
+  />
+
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-C32TYHJCLL');
+        `,
+    }}
+  />
+        <title>Next.js Abhijeet Starter!</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <Navigation />
     <div>
       <h3>About Page</h3>
